@@ -24,9 +24,6 @@ function ap() {
             </p>
 
 
-            adsfadfas
-
-
           </div>
 
         </div>
