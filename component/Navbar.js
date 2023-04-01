@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '@component/styles/Home.module.css'
 import stylesp from '@component/styles/navbar.module.css'
 import Link from 'next/link'
-import blogs from '@component/pages/blogs'
+import blogs from '@component/pages/Blogpost/[blog]'
 import ap from '@component/pages/ap'
 import contact from '@component/pages/contact'
 

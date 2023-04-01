@@ -1,13 +1,27 @@
-.main {
-  display: flex;
-  background-color: #202020;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
 
+
+
+.backgoundwhiteindex{
+  background-color: #ffffff;
+  padding: 2rem;
+
+
+}
+.mainindexdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cantw{
+  justify-content: center;
+      font-style: normal;
+      text-align: center;
+      font-weight: 700;
+      color: #000000 ;
+      font-size: 64px;
+      line-height: 1;
+
+}
 
 
 .aboutpagebackground{
@@ -24,13 +38,25 @@
   /* padding: 50px; */
 }
 .hey{
-  display: flex;
       justify-content: center;
       font-style: normal;
       font-weight: 700;
       color: #000000 ;
       font-size: 64px;
+      line-height: 1;
 
+}
+.email{
+  background-color: #000000;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+
+
+}
+
+.smilediv{
+  margin-left: 80%;
 }
 .aboutpagebackground p{
 
@@ -42,7 +68,7 @@
       padding-top: 10px;
       padding-left: 50px;
       padding-right: 50px;
-      text-align: justify;
+      text-align: center;
     }
 
     .aboutme{
@@ -52,8 +78,7 @@
       font-style: normal;
       font-weight: 700;
       color: #80868A ;
-      font-size: 52px;
-      
+      font-size: 72px;
       line-height: 112.2%;
       letter-spacing: -3.44478px;
 
@@ -82,7 +107,7 @@
   flex-direction: column;
   margin-right: 40px;
   margin-left: 40px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background: #F3F6FB;
   border-radius: 20px;
   padding: 10px;

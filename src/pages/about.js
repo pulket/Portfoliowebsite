@@ -9,12 +9,13 @@ function ap() {
     <>
 
       <div className={styles.backgoundwhite}>
-        <div className={styles.alig}>
+       <div className={styles.alig}>
           <div className={styles.aboutme}> About me</div>
           <div className={styles.aboutpagebackground}>
             <Image src={"/gpic.png"} height={190} width={190} className={styles.aboutmeimage} />
 
-            <div className={styles.hey}><span style={{ color: 'red' }}>i'm  </span> &nbsp; Pulkit Aggarwal <span></span>
+
+            <div className={styles.hey}><span style={{ color: '#80868A' }}>i'm  </span> &nbsp; Pulkit Aggarwal <span></span>
             </div>
 
             <p>
@@ -23,10 +24,12 @@ function ap() {
               Aside from this I love and enjoy traveling and writing  I share my experiences and insights in my blogs where write about travel and technology. Whether it's exploring new destinations or developing innovative apps, I'm always looking for new ways to push myself and learn.
             </p>
 
+            <div className={styles.smilediv}><Image src={"/smili.svg"} height={70} width={70} className={styles.aboutmseimage}/></div>
+
 
           </div>
 
-        </div>
+        </div> 
 
       </div>
 
