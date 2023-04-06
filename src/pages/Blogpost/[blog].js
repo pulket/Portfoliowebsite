@@ -4,30 +4,37 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
-  const [blogs, setBlogs] = useState([])
+  return(
+    <div className="hi">
+
+  </div>
+
+  )
+  
+  // const [blogs, setBlogs] = useState([])
 
 
-  useEffect(() => {
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pulket')
-      .then(resp => resp.json())
-      .then(data => {
-        setBlogs(data.items)
-      })
-  }, [])
+  // useEffect(() => {
+  //   fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pulket')
+  //     .then(resp => resp.json())
+  //     .then(data => {
+  //       setBlogs(data.items)
+  //     })
+  // }, [])
 
-  console.log(blogs)
-  return (
-    <div className="App">
-      <h1>My Blogs</h1>
-      {blogs.map(blog => {
-        return <div>
-          <h1>{blog.title}</h1>
-          <img src={blog.thumbnail} alt={blog.title} /><br />
-          <a href={blog.link} target="_blank" rel="noopener noreferrer">View Blog Post</a>
-        </div>
-      })}
-    </div>
-  );
+  // console.log(blogs)
+  // return (
+  //   <div className="App">
+  //     <h1>My Blogs</h1>
+  //     {blogs.map(blog => {
+  //       return <div>
+  //         <h1>{blog.title}</h1>
+  //         {/* <Image src={blog.thumbnail} alt={blog.title} /><br /> */}
+  //         <a href={blog.link} target="_blank" rel="noopener noreferrer">View Blog Post</a>
+  //       </div>
+  //     })}
+   
+ 
 }
 
 export default App;

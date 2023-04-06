@@ -23,7 +23,7 @@ const contact = () => {
             <i ><div className=' mx-2'><SiGmail/>  &nbsp;Pulket94@gmail.com</div></i>
             </button>
 
-         <div className={styles.smilediv}><Image src={"/smili.svg"} height={70} width={70} className={styles.aboutmseimage}/></div>
+         <div className={styles.smilediv}><Image src={"/smili.svg"} height={70} width={70} alt='smile' className={styles.aboutmseimage}/></div>
          
 
 

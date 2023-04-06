@@ -30,7 +30,7 @@ export default function Home() {
          
 
          <div>
-         <div className={styles.smilediv}><Image src={"/ex.png"} height={20} width={20} /></div>
+         <div className={styles.smilediv}><Image src={"/ex.png"} height={20} width={20}  alt='pulket smile emoji'/></div>
         
          <div className={styles.hey}>
           
@@ -47,7 +47,7 @@ export default function Home() {
 
          <div className={styles.indeximage}>
          <div className={styles.smilediv}><Image src={"/star.png"} height={40} width={40} className={styles.aboutmseimage}/></div>
-         <Image src={"/gpic.png"} height={350} width={350} />
+         <Image src={"/gpic.png"} height={350} width={350}  alt='pulket image'/>
          </div>
          </div>
 
@@ -183,7 +183,6 @@ export default function Home() {
 
                                 {/* fasdfa */}
                                 {/* newnew */}
-
                                 <div class="timeline">
                                     <div class="icon"></div>
                                     <div class="date-content">
@@ -201,15 +200,8 @@ export default function Home() {
                                         </p>
                                     </div>
                                 </div>
-                                
-        
                             </div>
         </div>
-
- 
-
-
-
          </div>
 
  
