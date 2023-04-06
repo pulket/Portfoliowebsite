@@ -68,7 +68,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month" >Application</span>
+                                                    <span class="month" style={{ color: '#090909'}}>Application</span>
                                             <span class="year">2021</span>
                                             </span>
                                         </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month">Designing</span>
+                                                    <span class="month" style={{ color: '#090909'}}>Designing</span>
                                             <span class="year">2021</span>
                                             </span>
                                         </div>
@@ -108,7 +108,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month">Writing</span>
+                                                    <span class="month" style={{ color: '#090909'}}>Writing</span>
                                             <span class="year">2022</span>
                                             </span>
                                         </div>
@@ -128,7 +128,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month"> Application</span>
+                                                    <span class="month" style={{ color: '#090909'}}> Application</span>
                                             <span class="year">2022</span>
                                             </span>
                                         </div>
@@ -148,7 +148,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month"> Applicaiton</span>
+                                                    <span class="month" style={{ color: '#090909'}}> Applicaiton</span>
                                             <span class="year">2023</span>
                                             </span>
                                         </div>
@@ -168,7 +168,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month"> Website</span>
+                                                    <span class="month" style={{ color: '#090909'}}> Website</span>
                                             <span class="year">2023</span>
                                             </span>
                                         </div>
@@ -188,7 +188,7 @@ export default function Home() {
                                     <div class="date-content">
                                         <div class="date-outer">
                                             <span class="date">
-                                                    <span class="month">Leadership</span>
+                                                    <span class="month" style={{ color: '#090909'}}>Leadership</span>
                                             <span class="year">2023</span>
                                             </span>
                                         </div>
