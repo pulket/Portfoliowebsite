@@ -13,8 +13,8 @@ export default function Home() {
 
       
       <Head>
-        <title>Pulket| Pulkit Aggarwal - App Developer - Designer - Writer</title>
-        <meta name="description" content="I Love Writing and app development, as a writer I share my passion for travel and technology on Medium with page name 'Pulket' and as a developer I dwevelop useful andoid app on my playstore page " />
+        <title> <h1> Pulket| Pulkit Aggarwal - App Developer and a Traveller </h1></title>
+        <meta name="description" content="I Love writing and app development and traveling, as a writer I share my passion for travel and technology on Medium with page name 'Pulket'" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles.css" />
@@ -46,7 +46,7 @@ export default function Home() {
          </div>
 
          <div className={styles.indeximage}>
-         <div className={styles.smilediv}><Image src={"/star.png"} height={40} width={40} className={styles.aboutmseimage}/></div>
+         <div className={styles.smilediv}><Image src={"/star.png"} height={40} width={40} className={styles.aboutmseimage}  alt='pulket star emoji'/></div>
          <Image src={"/gpic.png"} height={350} width={350}  alt='pulket image'/>
          </div>
          </div>
