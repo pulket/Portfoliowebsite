@@ -13,7 +13,7 @@ export default function Home() {
 
       
       <Head>
-        <title> <h1> Pulket| Pulkit Aggarwal - App Developer and a Traveller </h1></title>
+        <title>  Pulket| Pulkit Aggarwal - App Developer and a Traveller </title>
         <meta name="description" content="I Love writing and app development and traveling, as a writer I share my passion for travel and technology on Medium with page name 'Pulket'" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

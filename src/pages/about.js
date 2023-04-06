@@ -10,7 +10,7 @@ function ap() {
 
 
      <Head>
-        <title><h1>About Pulket</h1></title>
+        <title>About Pulket</title>
         <meta name="description" content="Pulket | Pulkit aggarwal is a 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing, traveling, and writing" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
