@@ -15,7 +15,7 @@ function Navbar() {
             <nav className={stylesp.navbarmaincs}>
 
                 <div className={stylesp.l}>
-                <Image src={"/logo.png"} height={50} width={50} /> 
+                <Image src={"/logo.png"} height={30} width={60} /> 
                 </div>
                  
             
@@ -23,9 +23,9 @@ function Navbar() {
                
                 <li> <a href="/">Home</a></li>
                 <li> <Link href="/about"> About</Link></li>
-                <li> <Link href="/blogs"> Blogs</Link></li>
-                <li> <Link href="/ap"> Apps</Link></li>
-                <li> <Link href="/contact"> Contact</Link></li>
+                <li> <Link href="/Blogpost"> Blogs</Link></li>
+                {/* <li> <Link href="/ap"> Apps</Link></li>
+                <li> <Link href="/contact"> Contact</Link></li> */}
                 </ul> 
             </nav>
         </>

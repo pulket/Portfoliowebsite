@@ -4,7 +4,7 @@ justify-content: space-between;
 align-items: center;
 padding: 5px;
 
-background-color: white;
+background-color: #030303;
 border-bottom: 0.7px solid #696969;
 
   
@@ -45,7 +45,7 @@ padding-top: 12px;
 
 
 letter-spacing: -0.5px;
-color: #80868A;
+color: #ffffff;
 text-decoration: none; /* remove underline */
 cursor: pointer;
 
