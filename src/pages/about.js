@@ -11,7 +11,7 @@ function ap() {
 
      <Head>
         <title>About Pulket</title>
-        <meta name="description" content="Pulket (pulkit aggarwal)is a 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing traveling, and writing.Pulket love making tools and applications that solve real-world problems 2 years ago he started android development as a hobby" />
+        <meta name="description" content="Pulket (pulkit aggarwal)is a 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing, traveling, and writing" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       

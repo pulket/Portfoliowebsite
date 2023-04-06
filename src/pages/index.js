@@ -34,9 +34,9 @@ export default function Home() {
         
          <div className={styles.hey}>
           
-            <span style={{ color: '#f3f3f3' }}>Hey! I am  </span>  <span style={{ color: '#FAC741' }}>&nbsp;Pulket</span> 
+             <span style={{ color: '#f3f3f3' }}>Hey! I am  </span>  <span style={{ color: '#FAC741' }}>&nbsp;Pulket</span> 
              <br/><span style={{ color: '#f3f3f3' }}>A  Developer Who <br/> designs, Writes <br/>and Travel..</span>
-            </div>
+            </div> 
 
             <p style={{ color: '#FAC741',fontSize:24 ,marginTop:20, fontWeight:700}}> Lets build something Amazing!</p>
 
