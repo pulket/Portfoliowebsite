@@ -74,7 +74,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h4 class="title"style={{ color: '#FAC741'}}>DirectChat</h4>
+                                        <h4 class="title"style={{ color: '#090909'}}>DirectChat</h4>
                                         <p class="description" style={{ color: '#f3f3f3'}}>
                                         Find the need of a app that can message to someone without saving his number. so made DirectChat with more than 100k downloads on playstore.
                                         </p>
@@ -94,7 +94,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title" style={{ color: '#FAC741'}}>Internship in Graphic Design</h5>
+                                        <h5 class="title" style={{ color: '#090909'}}>Internship in Graphic Design</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         Did an intership in Graphic Designing in Exam Lounge(an Indian edTech startup). Utilized UI/UX skills to contribute to the design of the website. Designed visually appealing posters to promote events and campaigns.
                                         </p>
@@ -114,7 +114,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title"style={{ color: '#FAC741'}}>Medium</h5>
+                                        <h5 class="title"style={{ color: '#090909'}}>Medium</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         I loves exploring new places and culture. I write about on my medium page under the name &quot;Pulket&quot; where I share my traveling experiences and other things that I found intresting.
                                         </p>
@@ -134,7 +134,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title"style={{ color: '#FAC741'}}>WallDrops</h5>
+                                        <h5 class="title"style={{ color: '#090909'}}>WallDrops</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         Worked on Android development  and made few more apps like - wallpaper app, QR code scanner and generator app and upload them on playstore
                                         </p>
@@ -154,7 +154,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title"style={{ color: '#FAC741'}}>OneHunt</h5>
+                                        <h5 class="title"style={{ color: '#090909'}}>OneHunt</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         OneHunt- Struggled with time-consuming research across multiple search engines, leading to the launch of OneHunt, an all-in-one search engine. planing to expend it with oter services.
                                         </p>
@@ -174,7 +174,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title"style={{ color: '#FAC741'}}>Portfolio & Bloging site</h5>
+                                        <h5 class="title"style={{ color: '#090909'}}>Portfolio & Bloging site</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         Made this Portfolio and bloging site using NextJS as Framework and deploy it.
                                         </p>
@@ -194,7 +194,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div class="timeline-content">
-                                        <h5 class="title"style={{ color: '#FAC741'}}>SpringFest IIIT Surat </h5>
+                                        <h5 class="title"style={{ color: '#090909'}}>SpringFest IIIT Surat </h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
                                         Art and Design Head - Spring Fest 2023, IIIT Surat Appointed as the lead Art and Design Head for Spring Fest 2023, the annual cultural and technical festival at IIIT Surat. Responsible for managing and overseeing all art and design related aspects of the festival, including designing event logos, posters, merchandise, and creating overall visual identity for the event.
                                         </p>
