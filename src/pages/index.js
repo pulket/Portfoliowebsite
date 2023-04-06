@@ -116,7 +116,7 @@ export default function Home() {
                                     <div class="timeline-content">
                                         <h5 class="title"style={{ color: '#FAC741'}}>Medium</h5>
                                         <p class="description"style={{ color: '#f3f3f3'}}>
-                                        I loves exploring new places and culture. I write about on my medium page under the name "Pulket" where i share my traveling experiences.
+                                        I loves exploring new places and culture. I write about on my medium page under the name &quot;Pulket&quot; where i share my traveling experiences.
                                         </p>
                                     </div>
                                 </div>
