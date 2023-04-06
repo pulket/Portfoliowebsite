@@ -13,8 +13,8 @@ export default function Home() {
 
       
       <Head>
-        <title>Pulket</title>
-        <meta name="description" content="Pulket, App developer, designer, Pulkit aggarwal, playstore apps of pulket" />
+        <title>Pulket | Pulkit Aggarwal</title>
+        <meta name="description" content="Pulket (pulkit aggarwal)is a 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing traveling, and writing. Pulket love making tools and applications that solve real-world problems 2 years ago he started android development as a hobby" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles.css" />

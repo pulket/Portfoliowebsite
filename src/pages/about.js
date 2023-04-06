@@ -1,4 +1,5 @@
 import React from "react"
+import Head from 'next/head'
 import Navbar from '../../component/Navbar'
 import styles from "@component/styles/Home.module.css"
 import Image from "next/image"
@@ -6,6 +7,14 @@ import Image from "next/image"
 function ap() {
   return (
     <>
+
+
+     <Head>
+        <title>About Pulket</title>
+        <meta name="description" content="Pulket (pulkit aggarwal)is a 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing traveling, and writing.Pulket love making tools and applications that solve real-world problems 2 years ago he started android development as a hobby" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      
       <div className={styles.backgoundwhite}>
         <div className={styles.alig}>
           <div className={styles.aboutme}> About me</div>
