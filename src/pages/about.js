@@ -1,8 +1,8 @@
 
-import React from 'react'
+import React from "react"
 import Navbar from '../../component/Navbar'
-import styles from '@component/styles/Home.module.css'
-import Image from 'next/image'
+import styles from "@component/styles/Home.module.css"
+import Image from "next/image"
 
 function ap() {
   return (
