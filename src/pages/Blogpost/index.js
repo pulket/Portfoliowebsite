@@ -1,18 +1,13 @@
-
-import React, { useState, useEffect } from 'react';
-import styles from '@component/styles/Home.module.css'
-import Image from 'next/image'
+import React from 'react';
+import styles from '@component/styles/Home.module.css';
+import Image from 'next/image';
 import Parser from 'rss-parser';
+import stylea from '@component/styles/blogcard.module.css';
 
-import stylea from '@component/styles/blogcard.module.css'
-
-
-function blogshomepage({ items }) {
-
+function BlogHomePage({ items }) {
   return (
     <div className={styles.backgoundwhiteindex}>
       <h2 style={{ fontSize: 72, alignContent: 'center', display: 'flex', marginTop: 20, marginBottom: 20, fontWeight: 700, justifyContent: "center", color: '#E5E9E9' }}>Latest Blogs</h2>
-
       <div className={stylea.blog}>
         {items.map((item, index) => (
           <a key={index} href={item.guid} target='blank' style={{ textDecoration: 'none' }}>
@@ -27,23 +22,20 @@ function blogshomepage({ items }) {
             </div>
           </a>
         ))}
-
       </div>
     </div>
-  )
-
+  );
 }
-export default blogshomepage
 
 export async function getServerSideProps() {
-  // Fetch data from the API endpoint
   const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pulket");
   const data = await res.json();
 
-  // Pass data to the page component as props
   return {
     props: {
       items: data.items,
     },
   };
 }
+
+export default BlogHomePage;
