@@ -8,12 +8,25 @@ import { SiGmail } from "react-icons/si";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+    function handleClick() {
+        const email = 'pulket94@gmail.com';
+        const subject = 'Hi, Lets Colab!';
+        const body = '';
+      
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+          subject
+        )}&body=${encodeURIComponent(body)}`;
+      
+        window.location.href = mailtoLink;
+      }
+
   return (
     <div style={{ color:'#E5E9E9'}}>
 
       
       <Head>
-        <title>  Pulket| Pulkit Aggarwal - App Developer and a Traveller </title>
+        <title>  Pulket| Pulkit Aggarwal - App Developer, Traveller and a Writer </title>
         <meta name="description" content="I Love writing and app development and traveling, as a writer I share my passion for travel and technology on Medium with page name 'Pulket'" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -29,36 +42,39 @@ export default function Home() {
          <div className={styles.mainindexdiv}>
          
 
-         <div>
-         <div className={styles.smilediv}><Image src={"/ex.png"} height={20} width={20}  alt='pulket smile emoji'/></div>
+         <div className={styles.allin}>
+         <div className={styles.smilediv}><Image src={"/ex.png"} height={20} width={20}  alt='pulket highlite emoji'/></div>
         
          <div className={styles.hey}>
           
              <span style={{ color: '#f3f3f3' }}>Hey! I am  </span>  <span style={{ color: '#FAC741' }}>&nbsp;Pulket</span> 
              <br/><span style={{ color: '#f3f3f3' }}>A  Developer Who <br/> designs, Writes <br/>and Travel..</span>
+             <p > Lets build something Amazing!</p>
             </div> 
 
-            <p style={{ color: '#FAC741',fontSize:24 ,marginTop:20, fontWeight:700}}> Lets build something Amazing!</p>
+           
 
-            <button className={styles.email}>
+            <button className={styles.email} onClick={handleClick} >
             <i ><div className=' mx-2'><SiGmail/>  &nbsp;Pulket94@gmail.com</div></i>
             </button>
          </div>
 
          <div className={styles.indeximage}>
-         <div className={styles.smilediv}><Image src={"/star.png"} height={40} width={40} className={styles.aboutmseimage}  alt='pulket star emoji'/></div>
-         <Image src={"/gpic.png"} height={350} width={350}  alt='pulket image'/>
+         <div className={styles.smilediv}><Image src={"/star.png"} height={20} width={20}   alt='pulket star emoji'/></div>
+         <Image className={styles.aboutmseimage} src={"/gpic.png"} height={350} width={350}  alt='pulket image'/>
          </div>
          </div>
 
       </div>
+
+    
 
 
 
       
         
       <div class="container my-5 px-5">
-        <h2  style={{ color: '#f3f3f3',fontSize:72 ,marginTop:20, fontWeight:700, justifyContent:"center"}}>OutLine</h2>
+        <h2  style={{ color: '#f3f3f3',fontSize:68 ,marginTop:20 ,marginBottom:20, fontWeight:700, justifyContent:"center"}}>OutLine</h2>
         
         <div class="main-timeline">
         

@@ -24,13 +24,13 @@ function ap() {
             <div className={styles.hey}><span style={{ color: '#E4E4E4' }}>i&apos;m  </span> <span style={{ color: '#FAC741' }}> &nbsp;Pulkit Aggarwal </span>
             </div>
 
-            <p style={{ color: '#E4E4E4'}}>
+            <p style={{ color: '#E4E4E4',textAlign:'justify'}}>
               A 3rd year Student at the Indian Institute of Information Technology Surat with a passion for Android development, designing traveling, and writing. I love making tools and applications that solve real-world problems 2 years ago I started android development as a hobby, and I create tools and personalization apps to make people&apos;s digital lives easier on my Play Store developer page under the name &ldquo;Pulket&rdquo;.
               <br></br>
               Aside from this I love and enjoy traveling and writing  I share my experiences and insights in my blogs where write about travel and technology. Whether it&apos;s exploring new destinations or developing innovative apps, I&apos;m always looking for new ways to push myself and learn.
             </p>
 
-            <div className={styles.smilediv}><Image src={"/smili.svg"} height={70} width={70} className={styles.aboutmseimage} alt="smiling face"/></div>
+            <div className={styles.smilediv}><Image src={"/smili.svg"} height={70} width={70}  alt="smiling face"/></div>
 
           </div>
         </div> 
